@@ -1,0 +1,47 @@
+body{
+  padding: 3%;
+}
+
+h3,h5{
+  text-align: center;
+}
+
+main{
+  width: 40%;
+}
+
+#jobs{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#jobs .job{
+  margin-bottom: 3%;
+}
+
+#form button, #del-button{
+  background-color: #7c5bde;
+}
+
+.toolbar-delete{
+  position: absolute;
+  top: 25px;
+  right: 8px;
+  height: 20px;
+  margin: 0 8px;
+  width: 20px;
+  margin: 0 3px;
+  cursor: pointer;
+  color: #202124;
+  opacity: 0.60;
+}
+
+.toolbar-delete:hover {
+  opacity: 1;
+}
+
+.date{
+  position: relative;
+  top: 20px;
+  margin-bottom: 10px;
+}
